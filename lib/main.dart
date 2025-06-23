@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'pages/login_page.dart';
+ import 'pages/login_page.dart';
 import 'pages/oefeningen_page.dart';
 import 'pages/prestatie_page.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        // '/': (context) =>  LoginPage(),
+         '/': (context) =>  LoginPage(),
         '/oefeningen': (context) => OefeningenPage(),
         '/prestatie': (context) => PrestatiePage(),
       },
