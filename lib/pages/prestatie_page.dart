@@ -43,7 +43,7 @@ class _PrestatiePageState extends State<PrestatiePage> {
                 },
                 body: jsonEncode({
                   'oefening_id': oef.id,
-                  'tijd_required': tijdCtl.text,
+                  'tijd': tijdCtl.text,
                   'aantal': int.tryParse(aantalCtl.text) ?? 0,
                   'lengte': double.tryParse(lengteCtl.text) ?? 0.0,
                 }),
